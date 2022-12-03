@@ -1,0 +1,1 @@
+for %%A IN (*.jpeg) DO ffmpeg -i "%%A" -vf scale=300:-1  "output/%%A.webp"

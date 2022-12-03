@@ -1,0 +1,1 @@
+for %%A IN (*.png) DO ffmpeg -i "%%A" -vf scale=300:-1  "output/%%A.jpeg"
